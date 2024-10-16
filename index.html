@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Colour Generator</title>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+    <section class="flex flex-col items-center">
+    <div class="m-4">
+        <h1 class="text-3xl font-bold">Colour Generator</h1>
+    </div>
+  
+  <div>
+    <div id="box" class="w-52 h-52 rounded-xl border-4 border-gray-600"></div>
+  </div>
+  <div>
+    <button id="btn" class="text-2xl font-medium mt-4 bg-slate-300 px-4 py-2 rounded-full hover:bg-slate-400"> Create a new colour</button>
+    </div>
+    <div id="colour-part">
+        <h1 id="h1" class="text-2xl font-medium mt-4">rgb(255, 255, 255)</h1>
+    </div>
+</section>
+</body>
+<script src="generator.js"></script>
+</html>
